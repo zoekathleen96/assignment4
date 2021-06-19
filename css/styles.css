@@ -23,6 +23,14 @@ h2 {
   color: red;
 }
 
+h3 {
+  font-family: "Roboto", fantasy;
+  font-weight: lighter;
+  font-size: 30px;
+  text-decoration: overline;
+  color: red;
+}
+
 
 p {
 font-family: 'Open Sans', sans-serif;
