@@ -34,17 +34,8 @@ h3 {
 
 p {
 font-family: 'Open Sans', sans-serif;
-}
-
-
-h3 {
-  color: red;
-}
-
-
-p {
-  color: green;
-  font-weight: bold;
+color: green
+font-weight: lighter;
 }
 
 
