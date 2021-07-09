@@ -3,7 +3,7 @@ body {
   background-image: url('../images/background.jpg');
 }
 
-h1 {
+h1{
   font-family: "Roboto", cursive;
   font-weight: bold;
   font-size: 45px;
@@ -13,31 +13,78 @@ h1 {
 }
 
 
-h2 {
+h2{
   @fontface
   font-family:'Lanterosy';
   src: url('..fonts/lanterosy.tff') format('truetype');
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 3px;
+  text-align: center;
   color: red;
 }
 
-h3 {
+h3{
   font-family: "Roboto", fantasy;
   font-weight: lighter;
   font-size: 30px;
   text-decoration: overline;
+  text-align: center;
   color: red;
 }
 
-
-p {
-font-family: 'Open Sans', sans-serif;
-color: green
-font-weight: lighter;
+h4{
+  text-align: center;
+  background-color: orange;
+  padding: 20px;
+  border-style:solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 30px;
+  margin: 30px 50px 70px
 }
 
+p{
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}
 
+.nav li{
+  display: inline;
+  font-size: 20px;
+  padding-left: 10px;
+  background-color: blue;
+  color: red;
+}
 
-/*======================================================
+.relative{
+  color: black;
+  background-color: red;
+  position: relative;
+  height: 20px;
+  right: 10px
+}
+
+.absolute{
+  color: black;
+  background-color: yellow;
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+
+.fixed{
+  color: black;
+  background-color: green;
+  position: fixed;
+  bottom: 30px;
+}
+p:hover, h1:hover {
+  background-color: yellow;
+}
+
+h5 {
+  color: yellow;
+  float: right;
+}
