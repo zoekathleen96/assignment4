@@ -7,7 +7,7 @@ h1{
   font-family: "Roboto", cursive;
   font-weight: bold;
   font-size: 45px;
-  text decoration: underline;
+  text-decoration: underline;
   text-align: center;
   color: blue;
 }
@@ -15,7 +15,6 @@ h1{
 
 h2{
   font-family:'Lanterosy';
-  src: url('..fonts/lanterosy.tff') format('truetype');
   font-weight: bold;
   font-size: 40px;
   letter-spacing: 3px;
